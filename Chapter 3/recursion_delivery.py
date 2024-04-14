@@ -11,5 +11,5 @@ def deliver_recursively(houses):
         second_half = houses[mid:]
         deliver_recursively(first_half)
         deliver_recursively(second_half)
-
+        
 deliver_recursively(houses)
